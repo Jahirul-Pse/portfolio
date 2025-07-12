@@ -1,0 +1,6 @@
+{
+    "programming_languages": ["C++", "C#", "Python", "Java"],
+    "web_development": ["HTML", "XAML", ".NET Desktop App"],
+    "app_development": ["WinUI3", "Windows Reunion", "JavaFX"],
+    "database_tools": ["MySQL", "SSMS", "GitHub", "Visual Studio", "VS Code"]
+}

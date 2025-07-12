@@ -1,0 +1,33 @@
+{
+  "name": "jahirul-portfolio",
+  "version": "1.0.0",
+  "description": "Professional portfolio website for Jahirul Islam",
+  "main": "index.html",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist",
+    "lint": "eslint . --ext .js,.html",
+    "format": "prettier --write .",
+    "optimize-images": "node scripts/optimize-images.js"
+  },
+  "keywords": [
+    "portfolio",
+    "software-engineer",
+    "web-development"
+  ],
+  "author": "Jahirul Islam",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^4.4.0",
+    "vite-plugin-html": "^3.2.0",
+    "eslint": "^8.45.0",
+    "prettier": "^3.0.0",
+    "gh-pages": "^6.0.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  }
+}
