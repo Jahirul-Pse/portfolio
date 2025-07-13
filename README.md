@@ -8,3 +8,4 @@ A personal portfolio showcasing my skills, projects, and achievements.
 
 ## Deployment
 - Deploy to GitHub Pages or Netlify by pushing the `build/dist` folder.
+"@ portfolio" 
